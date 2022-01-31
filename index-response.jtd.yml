@@ -36,7 +36,8 @@ definitions:
                 type: boolean
     AnnouncementIndex:
         values:
-            ref: AnnouncementIndexEntry
+            elements:
+                ref: AnnouncementIndexEntry
 properties:
     updateAt:
         metadata:
